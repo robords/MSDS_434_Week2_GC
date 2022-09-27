@@ -5,8 +5,9 @@
 all: setup
 
 setup:
+	@echo This is on GC
 	python3 -m venv ~/.venv/cloud_weather_predictions
-# https://docs.python.org/3/library/venv.html#creating-virtual-environments
+	# https://docs.python.org/3/library/venv.html#creating-virtual-environments
 
 install:
 	pip install -r requirements.txt
